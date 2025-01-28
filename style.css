@@ -1,0 +1,31 @@
+:root{
+    --cor-fundo: #ff007f;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* Centralizar */
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centralizar no eixo x */
+    align-items: center;    /* Centralizar no eixo y */
+    background-color: tomato;
+    background-color: var(--cor-fundo);
+}
+
+#cor{
+    padding: 8px 16px;
+    font-size: 24px;
+    outline: none; /*Tira a borda da transição da barra de pesquisa*/
+}
+
+#trocar-cor{
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer; /*Muda a cor na hora que clica no botão*/
+}
