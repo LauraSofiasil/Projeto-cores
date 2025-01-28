@@ -16,6 +16,7 @@ body{
     align-items: center;    /* Centralizar no eixo y */
     background-color: tomato;
     background-color: var(--cor-fundo);
+    transition: background-color 1s;
 }
 
 #cor{
